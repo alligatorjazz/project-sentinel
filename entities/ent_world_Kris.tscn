@@ -1,13 +1,13 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://entities/ent_world_Kris.tres" type="SpriteFrames" id=1]
-[ext_resource path="res://entities/ent_world_Kris.gd" type="Script" id=2]
+[ext_resource path="res://sprites/ent_world_Kris.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://scripts/ent_world_Kris.gd" type="Script" id=2]
 
 [node name="Kris" type="Area2D"]
 script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 177.238, 87.422 )
-scale = Vector2( 4, 4 )
+scale = Vector2( 2, 2 )
 frames = ExtResource( 1 )
 animation = "walk_down"
