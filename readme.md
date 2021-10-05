@@ -1,8 +1,8 @@
 # Project sentinel
-The rudiments of a deltarune fangame?
+the rudiments of a deltarune fangame?
 
 ## Mission
-A single, 20-30 minute dungeon level using a clone of deltarune's overworld and combat system made in godot.
+a single, 20-30 minute dungeon level using a clone of deltarune's overworld and combat system made in godot.
 
 ## Roadmap
 
