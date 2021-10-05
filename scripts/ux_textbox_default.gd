@@ -41,10 +41,10 @@ func _new_message_block(text, font) -> HBoxContainer:
 	
 	
 	var text_label: = Label.new()
+	text_label.autowrap = true
 	text_label.text = text
 	text_label.set_name("TextLabel")
 	text_label.add_font_override("font", load(font))
-	text_label.autowrap = true
 	text_label.set_h_size_flags(3)
 	text_label.set_v_size_flags(3)
 	
