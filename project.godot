@@ -8,11 +8,32 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Message",
+"language": "GDScript",
+"path": "res://scripts/abc_message.gd"
+}, {
+"base": "CanvasLayer",
+"class": "Textbox",
+"language": "GDScript",
+"path": "res://scripts/ux_textbox_default.gd"
+} ]
+_global_script_class_icons={
+"Message": "",
+"Textbox": ""
+}
+
 [application]
 
 config/name="project sentinel"
 run/main_scene="res://maps/TestField.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
 
 [global]
 

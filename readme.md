@@ -10,12 +10,16 @@ a single, 20-30 minute dungeon level using a clone of deltarune's overworld and 
 - [x] successful import of kris sprite sheets / animations
 - [x] successful import of forest tiles / tilemaps
 - [x] kris walk cycle implemented
-- [] baseline text bubbles (w/o animations)
-33vw, 25vh
+<!-- [MILESTONE 1] TODO: -->
+<!-- TODO: allow for skipping to the end of text scroll -->
+<!-- TODO: implement advance / queue functions for multi-box messages -->
+- [x] baseline text bubbles (w/o animations)
 - [] text bubbles w/ portraits
 - [] inventory / menu system
 - [] world interactables (chests, inspection, etc)
 - [] multiple rooms w/ room transitions
+<!-- [DUE]: by 1/10 -->
+
 - [] sound
 - [] music
 - [] obstacle courses (world objects that can affect hp)
